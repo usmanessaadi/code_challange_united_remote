@@ -4,8 +4,7 @@
 
 
 # languages  : HTML5,CSS3, JavaScript
-# libraries used : - bootstrap 4
-                   - materialize-icons
+# libraries used : - bootstrap 4 - materialize-icons
                    
 
 # note : connection required to use icons
