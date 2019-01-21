@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox</title>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container px-0 mt-3">
+    <div class="gallery-heading">
+      <!-- logo -->
+      <img src="img/logo.png" class="p-1" width="40" alt="logo">
+
+      <!-- title -->
+      <span class="text-white heading-text"> Welcome to the jungle</span>
+
+      <!-- pagination -->
+      <div class="pagination text-white mt-2 mr-2 float-right d-inline">
+        <span id="left" class="mx-1"> &#8592;</span>
+        <span id="right"> &#8594;</span>
+      </div>
+    </div>
+
+    <div class="gallery-section" id="gallery">
+      <div class="row m-0 flex-row flex-nowrap">
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item" id="card">
+
+            <img src="img/5.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="p-0 m-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block vid-item">
+
+            <img src="img/7.jpg" class="img-fluid" alt="">
+
+            <div class="img-overlay"></div>
+            <div class="row m-0 video-card-caption">
+              <div class="col-3 mr-4">
+                <i class="material-icons vid-icon"> play_arrow</i>
+              </div>
+              <div class="col-3">
+                <p><strong>Bertrand Uzeel</strong> <br />
+                  <span class="sub-title"> Co-Founder</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block" id="card">
+            <div class="quote text-white text-center ">
+              <img src="img/quotation.png" class="mx-auto mt-5 mb-4" alt="">
+              <p class="w-75 mx-auto ">
+                Life is short, work somewhere <br> awesome.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item">
+            <img src="img/4.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block vid-item">
+            <img src="img/5.jpg" class="img-fluid" alt="">
+
+            <div class="img-overlay"></div>
+            <div class="row m-0 video-card-caption">
+              <div class="col-3 mr-4">
+                <i class="material-icons vid-icon"> play_arrow</i>
+              </div>
+              <div class="col-3">
+                <p><strong>Bertrand Uzeel</strong> <br />
+                  <span class="sub-title"> Co-Founder</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item">
+            <img src="img/6.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row m-0 flex-row flex-nowrap">
+
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block vid-item">
+
+            <div class="img-overlay"></div><img src="img/6.jpg" class="img-fluid" alt="">
+            <div class="row m-0 video-card-caption">
+              <div class="col-3 mr-4">
+                <i class="material-icons vid-icon"> play_arrow</i>
+              </div>
+              <div class="col-3">
+                <p><strong>Bettsier Uzeel</strong> <br />
+                  <span class="sub-title"> Welcome to Jungle</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item">
+            <img src="img/8.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+        </div>
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block vid-item">
+
+            <div class="img-overlay"></div><img src="img/2.jpg" class="img-fluid" alt="">
+            <div class="row m-0 video-card-caption">
+              <div class="col-3 mr-4">
+                <i class="material-icons vid-icon"> play_arrow</i>
+              </div>
+              <div class="col-3">
+                <p><strong>Bertrand Uzeel</strong> <br />
+                  <span class="sub-title"> Co-Founder</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item">
+            <img src="img/1.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+        </div>
+        <div class="p-0 m-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block img-item">
+            <img src="img/2.jpg" class="img-fluid" alt="">
+            <div class="img-overlay">
+              <i class="material-icons img-icon">search</i>
+            </div>
+          </div>
+        </div>
+        <div class="p-0 col-12 col-sm-6 col-md-4">
+          <div class="card card-block vid-item">
+
+            <div class="img-overlay"></div><img src="img/3.jpg" class="img-fluid" alt="">
+            <div class="row m-0 video-card-caption">
+              <div class="col-3 mr-4">
+                <i class="material-icons vid-icon"> play_arrow</i>
+              </div>
+              <div class="col-3">
+                <p><strong>Brinteny Spears</strong> <br />
+                  <span class="sub-title"> Welcome to Jungle</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row scroll" id="scrollbar"></div>
+
+
+    <div class="gallery-footer py-1">
+      <img src="img/logo.png" class="p-1" width="40" alt="logo">
+
+      <!-- title -->
+      <a href="#0" class="link float-right text-white mr-2 mt-2 small">Voir le proifle &#62;</a>
+
+    </div>
+
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="js/js.js"></script>
+
+
+</body>
+
+</html>
